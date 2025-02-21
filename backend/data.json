@@ -1,0 +1,26 @@
+{
+  "user": [
+    {
+      "id": "ba6f",
+      "firstName": "RAKESH",
+      "lastName": "KR",
+      "username": "rakesh123",
+      "email": "rakeshkr4206@gmail.com",
+      "mobile": "8123648469",
+      "password": "Rocky@1245",
+      "confirmPassword": "Rocky@1245",
+      "gender": "male"
+    },
+    {
+      "id": "e843",
+      "firstName": "RAKESH",
+      "lastName": "KR",
+      "username": "rakesh1234",
+      "email": "rakeshkr4206@gmail.com",
+      "mobile": "8123456214",
+      "password": "ROcky@1232",
+      "confirmPassword": "Rocky@1232",
+      "gender": "male"
+    }
+  ]
+}

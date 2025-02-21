@@ -1,0 +1,98 @@
+
+
+:root {
+    --primary-color: #0095f6;
+    --secondary-color: #00376b;
+    --background-color: #fafafa;
+    --error-color: #ed4956;
+    --success-color: #2ecc71;
+}
+
+
+
+.login-container {
+    background-color: whitesmoke;
+    padding: 2rem;
+    border-radius: 1px;
+    border: 1px solid #dbdbdb;
+    width: 100%;
+    max-width: 350px;
+    margin-bottom: 1rem;
+}
+
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    font-size: 0.875rem;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #a8a8a8;
+}
+
+.login-button {
+    width: 100%;
+    padding: 0.5rem;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.login-button:hover {
+    background-color: #0081d6;
+}
+
+.register-container {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 1px;
+    border: 1px solid #dbdbdb;
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+}
+
+.register-link {
+    color: var(--secondary-color);
+    font-size: 0.875rem;
+}
+
+.register-link a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+/* 
+.footer {
+    margin-top: 2rem;
+    color: black;
+    font-size: 0.75rem;
+    text-align: center;
+} */
+
+@media (max-width: 450px) {
+
+    .login-container,
+    .register-container {
+        border: none;
+        background: transparent;
+    }
+
+    body {
+        background-color: white;
+    }
+}
