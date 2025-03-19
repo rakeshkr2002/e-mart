@@ -1,6 +1,3 @@
-Here's an updated `README.md` tailored to your project's details:
-
-```markdown
 # React E-Commerce Platform
 
 A feature-rich and scalable e-commerce platform built with **React**, **React Router**, and **Context API**. This application supports a wide range of product categories and provides user-friendly features, including authentication, cart management, and payment integration.
