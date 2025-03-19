@@ -8,10 +8,7 @@ const LandingPage = () => {
     <>
     <div>
     <Navbar></Navbar>
-
     </div>
-    
-     
      <Outlet></Outlet>
     </>
   )
